@@ -32,3 +32,10 @@ moda=stats.mode(listaordenada)
 
 #Aqui saco la desviacion Estandar de los valores dados antes
 desviacionEstandar=np.std(lista)
+
+#Aqui imprimo los resultados
+print("*"*30,"RESULTADOS:","*"*30)
+print(f"Esta es tu media : {media}")
+print(f"Esta es tu mediana : {mediana}")
+print(f"Esta es tu moda : {moda}")
+print(f"Esta es tu Desviacion Estandar : {desviacionEstandar}")
